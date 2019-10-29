@@ -30,7 +30,7 @@ mkdir "$DIRETORIO_DOWNLOADS"
 wget -c "$URL_GOOGLE_EARTH_PRO"        -P "$DIRETORIO_DOWNLOADS"
 wget -c "$URL_DRAFTSIGHT"              -P "$DIRETORIO_DOWNLOADS"
 wget -c "$URL_GVSIG"                   -P "$DIRETORIO_DOWNLOADS"
-wget -c "URL_GPSXSEE"                  -P "$DIRETORIO_DOWNLOADS"
+wget -c "$URL_GPSXSEE"                  -P "$DIRETORIO_DOWNLOADS"
 
 ## Instalando pacotes .deb baixados na sessão anterior ##
 sudo dpkg -i $DIRETORIO_DOWNLOADS/*.deb
